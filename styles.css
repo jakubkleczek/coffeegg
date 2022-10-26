@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(230, 198, 84);
+}
+
+.coffeegg {
+    margin: 0 auto;
+    position: relative;
+}
+
+.eggwhite {
+    background-color: white;
+    height: 310px;
+    width: 320px;
+    border-radius: 60% 50% 50% 50%;
+    left: 100px;
+    top: 200px;
+    position: absolute;
+}
+
+.bite {
+    background-color: rgb(230, 198, 84);
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    border-radius: 50% 60% 50% 70%;
+    left: 105px;
+    top: 210px;
+    z-index: 1;
+}
+
+.yolk {
+    background-color: rgb(237, 190, 23);
+    height: 160px;
+    width: 160px;
+    position: absolute;
+    border-radius: 50% 60% 50% 70%;
+    left: 180px;
+    top: 280px;
+}
+
+.egg .left-eye {
+    background-color: rgb(43, 29, 13);
+    height: 12px;
+    width: 15px;
+    position: absolute;
+    border-radius: 50% 60% 50% 70%;
+    left: 105px;
+    top: 55px;
+}
+
+.egg .right-eye {
+    background-color: rgb(43, 29, 13);
+    height: 12px;
+    width: 15px;
+    position: absolute;
+    border-radius: 50% 60% 50% 70%;
+    left: 40px;
+    top: 55px;
+}
+
+.egg .left-blush {
+    background-color: rgb(230, 60, 60);
+    height: 10px;
+    width: 15px;
+    position: absolute;
+    border-radius: 50% 60% 55% 70%;
+    left: 105px;
+    top: 72px;
+}
+
+.egg .right-blush {
+    background-color: rgb(230, 60, 60);
+    height: 10px;
+    width: 15px;
+    position: absolute;
+    border-radius: 50% 60% 55% 70%;
+    left: 42px;
+    top: 72px;
+}
+
+.egg .smile {
+    background-color: rgb(43, 29, 13);
+    height: 2px;
+    width: 20px;
+    border-radius: ;
+    position: absolute;
+    top: 100px;
+    left: 70px;
+}
+
+.egg .left-hand {
+    background-color: rgb(43, 29, 13);
+    height: 50px;
+    width: 3px;
+    border-radius: ;
+    position: absolute;
+    top: 420px;
+    left: 110px;
+}
+
+.egg .right-hand {
+    background-color: rgb(43, 29, 13);
+    height: 50px;
+    width: 3px;
+    border-radius: ;
+    position: absolute;
+    top: 410px;
+    left: 410px;
+    rotate: 140deg;
+}
