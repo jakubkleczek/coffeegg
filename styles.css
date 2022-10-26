@@ -84,21 +84,42 @@ body {
     top: 72px;
 }
 
-.egg .smile {
-    background-color: rgb(43, 29, 13);
-    height: 2px;
-    width: 20px;
-    border-radius: ;
+.egg .white-blush-mini {
+    background-color: rgb(255, 255, 255);
+    height: 12px;
+    width: 10px;
     position: absolute;
-    top: 100px;
-    left: 70px;
+    border-radius: 60% 60% 60% 50%;
+    left: 5px;
+    top: 60px;
+}
+
+.egg .white-blush-long {
+    background-color: rgb(255, 255, 255);
+    height: 20px;
+    width: 8px;
+    position: absolute;
+    border-radius: 60% 70% 60% 50%;
+    left: 12px;
+    top: 33px;
+    rotate: 20deg;
+}
+
+.egg .smile {
+    width: 40px;
+    height: 50px;
+    border: solid 2px rgb(43, 29, 13);
+    border-color: transparent transparent rgb(43, 29, 13) transparent;
+    border-radius: 10% 10% 50% 50%/25px;
+    position: absolute;
+    top: 50px;
+    left: 60px;
 }
 
 .egg .left-hand {
     background-color: rgb(43, 29, 13);
     height: 50px;
     width: 3px;
-    border-radius: ;
     position: absolute;
     top: 420px;
     left: 110px;
@@ -108,9 +129,151 @@ body {
     background-color: rgb(43, 29, 13);
     height: 50px;
     width: 3px;
-    border-radius: ;
     position: absolute;
     top: 410px;
     left: 410px;
     rotate: 140deg;
+}
+
+.cup {
+    background-color: rgb(221, 66, 66);
+    height: 280px;
+    width: 320px;
+    border-radius: 30% 30% 50% 50%/ 15% 15% 65% 65%;
+    left: 420px;
+    top: 210px;
+    position: absolute;
+}
+
+.fluid {
+    background-color: rgb(43, 29, 13);
+    height: 30px;
+    width: 250px;
+    border-radius: 50% 50% 50% 50%/ 65% 65% 65% 65%;
+    position: absolute;
+    top: 12px;
+    left: 35px;
+}
+
+.coffee .left-hand {
+    background-color: rgb(43, 29, 13);
+    height: 50px;
+    width: 3px;
+    position: absolute;
+    top: 405px;
+    left: 435px;
+    rotate: 25deg;
+}
+
+.coffee .right-hand {
+    background-color: rgb(43, 29, 13);
+    height: 50px;
+    width: 3px;
+    position: absolute;
+    top: 396px;
+    left: 725px;
+    rotate: -20deg;
+}
+
+.coffee .left-eye {
+    background-color: rgb(43, 29, 13);
+    height: 10px;
+    width: 12px;
+    position: absolute;
+    border-radius: 50% 60% 50% 70%;
+    left: 105px;
+    top: 140px;
+}
+
+.coffee .right-eye {
+    background-color: rgb(43, 29, 13);
+    height: 10px;
+    width: 12px;
+    position: absolute;
+    border-radius: 50% 60% 50% 70%;
+    left: 190px;
+    top: 140px;
+}
+
+.coffee .left-blush {
+    background-color: white;
+    height: 10px;
+    width: 15px;
+    position: absolute;
+    border-radius: 50% 60% 55% 70%;
+    left: 105px;
+    top: 160px;
+}
+
+.coffee .right-blush {
+    background-color: white;
+    height: 10px;
+    width: 15px;
+    position: absolute;
+    border-radius: 50% 60% 55% 70%;
+    left: 190px;
+    top: 160px;
+}
+
+
+.coffee .white-blush-mini {
+    background-color: rgb(255, 255, 255);
+    height: 12px;
+    width: 10px;
+    position: absolute;
+    border-radius: 60% 60% 60% 50%;
+    left: 70px;
+    top: 140px;
+}
+
+.coffee .white-blush-long {
+    background-color: rgb(255, 255, 255);
+    height: 20px;
+    width: 8px;
+    position: absolute;
+    border-radius: 60% 70% 60% 50%;
+    left: 80px;
+    top: 110px;
+    rotate: 20deg;
+}
+
+.coffee .smile {
+    width: 50px;
+    height: 60px;
+    border: solid 2px rgb(43, 29, 13);
+    border-color: transparent transparent rgb(43, 29, 13) transparent;
+    border-radius: 50% 50% 50% 50%/30px;
+    position: absolute;
+    top: 140px;
+    left: 130px;
+  }
+
+.left-palm {
+    background-color: rgb(43, 29, 13);
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    border-radius: 50% 60% 50% 70%;
+    left: 108px;
+    top: 465px;
+}
+
+.mid-palm {
+    background-color: rgb(43, 29, 13);
+    height: 10px;
+    width: 12px;
+    position: absolute;
+    border-radius: 50% 60% 50% 70%;
+    left: 420px;
+    top: 445px;
+}
+
+.right-palm {
+    background-color: rgb(43, 29, 13);
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    border-radius: 50% 60% 50% 70%;
+    left: 730px;
+    top: 438px;
 }
